@@ -1,0 +1,350 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Meddon&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+body {
+  background-image: url("https://source.unsplash.com/sgrCLKYdw5g");
+  background-color: #1c1c1c;
+  font-family: "Gloria Hallelujah", cursive;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.container {
+  border-radius: 7px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  color: #1c1c1c;
+  width: 550px;
+  margin: 70px auto 0 auto;
+  padding: 15px 15px 5px;
+  background-color: #f7f7f7;
+}
+
+.container {
+  -webkit-animation: glowcontainer 1s ease-in-out infinite alternate;
+  -moz-animation: glowcontainer 1s ease-in-out infinite alternate;
+  animation: glowcontainer 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowcontainer {
+  from {
+    box-shadow: 0 0 5px #000, 0 0 15px #f7f7f7;
+  }
+  to {
+    box-shadow: 0 0 5px #000, 0 0 15px #f7f7f7, 0 0 20px #45b39d;
+  }
+}
+
+.perfil {
+  background-image: url("https://source.unsplash.com/lud4OaUCP4Q");
+  border-radius: 10px;
+  height: 80px;
+  background-size: cover;
+  background-position: bottom;
+  padding: 15px;
+  box-shadow: 1px 1px 1px #000;
+}
+
+.perfil:hover {
+  background-image: url("https://source.unsplash.com/KMvoHcB-w5g");
+  background-size: cover;
+  background-position: center;
+}
+
+.perfil-foto {
+  background-image: url("https://media.discordapp.net/attachments/890918354225868823/890918645201530920/AvatarMaker.png");
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-38%);
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border: 10px solid #f7f7f7;
+}
+
+.perfil-foto2 {
+  visibility: hidden;
+  background-image: url("https://github.com/annereginatto.png");
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-38%);
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border: 10px solid #f7f7f7;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  /*   font-family: "Reenie Beanie", cursive; */
+  /*     font-family: "Over the Rainbow", cursive; */
+  font-family: "Meddon", cursive;
+  letter-spacing: 7px;
+  margin: 10px 0 0 15px;
+  text-shadow: 1.5px 1.5px 5px #76d7c4;
+  cursor: default;
+}
+
+.titulo h1:hover {
+  transform: scale(1.05);
+  transition-duration: 1s;
+  /*   -webkit-animation: glowh1 1s ease-in-out infinite alternate;
+  -moz-animation: glowh1 1s ease-in-out infinite alternate;
+  animation: glowh1 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowh1 {
+  from {
+    text-shadow: 0 0 5px #76d7c4, 0 0 10px #76d7c4, 0 0 15px #76d7c4;
+  } */
+  text-shadow: 1.5px 1.5px 15px #76d7c4;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 20.5px;
+  font-family: "Gloria Hallelujah", cursive;
+  text-align: center;
+  margin: 0;
+  cursor: default;
+  letter-spacing: 1px;
+}
+
+.titulo h3:hover {
+  transform: scale(1.1);
+  transition-duration: 0.7s;
+}
+
+.projetos {
+  display: flex;
+  align-items: center;
+  background-color: #fae5d3;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 5px;
+  margin: 20px auto 20px auto;
+  border: 1px solid #000;
+  color: #1c1c1c;
+  height: 410px;
+  width: 540px;
+}
+
+.projetos:hover {
+  box-shadow: 0 0 20px #45b39d;
+}
+
+.projetos:hover,
+.projetos:hover a,
+.projetos:hover li {
+  background-color: #1c1c1c;
+  color: #45b39d;
+}
+
+.projetos a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+.projetos ol {
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 60px;
+  font-weight: bold;
+  cursor: default;
+}
+
+.projetos li {
+  line-height: 38px;
+  font-size: 18px;
+  text-align: justify;
+  color: #1c1c1c;
+  letter-spacing: 3px;
+  margin-left: 80px;
+}
+
+.media {
+  -webkit-animation: 0.5s ease-in-out 0s normal forwards 1 fadein;
+  animation: 0.5s ease-in-out 0s normal forwards 1 fadein;
+}
+
+.temp {
+  -webkit-animation: 1s ease-in-out 0s normal forwards 1 fadein;
+  animation: 1s ease-in-out 0s normal forwards 1 fadein;
+}
+
+.moedas {
+  -webkit-animation: 1.5s ease-in-out 0s normal forwards 1 fadein;
+  animation: 1.5s ease-in-out 0s normal forwards 1 fadein;
+}
+
+.km {
+  -webkit-animation: 2s ease-in-out 0s normal forwards 1 fadein;
+  animation: 2s ease-in-out 0s normal forwards 1 fadein;
+}
+
+.ment {
+  -webkit-animation: 2.5s ease-in-out 0s normal forwards 1 fadein;
+  animation: 2.5s ease-in-out 0s normal forwards 1 fadein;
+}
+
+.flix {
+  -webkit-animation: 3s ease-in-out 0s normal forwards 1 fadein;
+  animation: 3s ease-in-out 0s normal forwards 1 fadein;
+}
+
+.classificacao {
+  -webkit-animation: 3.5s ease-in-out 0s normal forwards 1 fadein;
+  animation: 3.5s ease-in-out 0s normal forwards 1 fadein;
+}
+
+.supertrunfo {
+  -webkit-animation: 4s ease-in-out 0s normal forwards 1 fadein;
+  animation: 4s ease-in-out 0s normal forwards 1 fadein;
+}
+
+.certificard {
+  -webkit-animation: 4.5s ease-in-out 0s normal forwards 1 fadein;
+  animation: 4.5s ease-in-out 0s normal forwards 1 fadein;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.media:hover,
+.temp:hover,
+.moedas:hover,
+.km:hover,
+.ment:hover,
+.flix:hover,
+.classificacao:hover,
+.supertrunfo:hover,
+.certificard:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+footer img {
+  width: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.gmail {
+  width: 45px;
+}
+
+footer img:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+.tema-dark {
+  color: #f7f7f7;
+  display: inline-block;
+  transform: translateY(-30%);
+  border-radius: 5px;
+  background-color: #1c1c1c;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 14px;
+  padding: 0 5px 0 5px;
+  margin: 0 15px 0 15px;
+  cursor: pointer;
+}
+
+.tema-dark:hover {
+  transform: scale(1.1) translateY(-30%);
+  transition-duration: 0.5s;
+}
+
+.dark {
+  background-image: ;
+}
+
+.dark .container {
+  background-color: #343434;
+  box-shadow: 10px 10px 10px rgba(247, 247, 247, 0.5);
+  color: #f7f7f7;
+  -webkit-animation: glowcontainer 1s ease-in-out infinite alternate;
+  -moz-animation: glowcontainer 1s ease-in-out infinite alternate;
+  animation: glowcontainer 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowcontainer {
+  from {
+    box-shadow: 0 0 5px #f7f7f7, 0 0 15px #45b39d;
+  }
+  to {
+    box-shadow: 0 0 5px #f7f7f7, 0 0 15px #f7f7f7, 0 0 20px #45b39d;
+  }
+}
+
+.dark .perfil {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42);
+}
+
+.dark .perfil-foto {
+  border: 10px solid #343434;
+}
+
+.dark .titulo h1 {
+  color: #f7f7f7;
+  text-shadow: 2px 2px 8px #76d7c4;
+}
+
+.dark .titulo h1:hover {
+  text-shadow: 3px 3px 20px #76d7c4;
+}
+
+.dark .projetos,
+.dark .projetos li,
+.dark .projetos a {
+  background-color: #1c1c1c;
+  color: #76d7c4;
+}
+
+.dark .projetos {
+  border: #f7f7f7;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0 0 2px #45b39d;
+}
+
+.dark .projetos:hover,
+.dark .projetos:hover a,
+.dark .projetos:hover li {
+  background-color: #76d7c4;
+  color: #1c1c1c;
+}
+
+.dark .projetos:hover {
+  box-shadow: 2px 2px 4px rgba(247, 247, 247, 0.4), 0 0 10px #45b39d;
+}
+
+.dark .github,
+.dark .codepen {
+  filter: invert(72%) sepia(9%) saturate(2313%) hue-rotate(118deg)
+    brightness(85%) contrast(84%);
+}
+
+.dark .tema-dark {
+  background-color: #f7f7f7;
+  color: #1c1c1c;
+}
