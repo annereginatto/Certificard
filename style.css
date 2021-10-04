@@ -19,7 +19,7 @@ body {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   color: #1c1c1c;
   width: 550px;
-  height: 870px;
+  height: 950px;
   margin: 70px auto 0 auto;
   padding: 15px 15px 5px;
   background-color: #f7f7f7;
@@ -133,7 +133,7 @@ body {
   margin: 20px auto 15px auto;
   border: 1px solid #000;
   color: #1c1c1c;
-  height: 500px;
+  height: 580px;
   width: 540px;
 }
 
@@ -154,7 +154,7 @@ body {
 }
 
 .projetos ol {
-  font-size: 25px;
+  font-size: 22px;
   text-align: center;
   letter-spacing: 5px;
   line-height: 60px;
@@ -164,66 +164,76 @@ body {
 
 .projetos li {
   line-height: 38px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
   color: #1c1c1c;
   letter-spacing: 3px;
   margin-left: 80px;
 }
 
-.media {
+#media {
   -webkit-animation: 0.5s ease-in-out 0s normal forwards 1 fadein;
   animation: 0.5s ease-in-out 0s normal forwards 1 fadein;
 }
 
-.temp {
+#temp {
   -webkit-animation: 1s ease-in-out 0s normal forwards 1 fadein;
   animation: 1s ease-in-out 0s normal forwards 1 fadein;
 }
 
-.moedas {
+#moedas {
   -webkit-animation: 1.5s ease-in-out 0s normal forwards 1 fadein;
   animation: 1.5s ease-in-out 0s normal forwards 1 fadein;
 }
 
-.km {
+#km {
   -webkit-animation: 2s ease-in-out 0s normal forwards 1 fadein;
   animation: 2s ease-in-out 0s normal forwards 1 fadein;
 }
 
-.ment {
+#ment {
   -webkit-animation: 2.5s ease-in-out 0s normal forwards 1 fadein;
   animation: 2.5s ease-in-out 0s normal forwards 1 fadein;
 }
 
-.flix {
+#flix {
   -webkit-animation: 3s ease-in-out 0s normal forwards 1 fadein;
   animation: 3s ease-in-out 0s normal forwards 1 fadein;
 }
 
-.classificacao {
+#classificacao {
   -webkit-animation: 3.5s ease-in-out 0s normal forwards 1 fadein;
   animation: 3.5s ease-in-out 0s normal forwards 1 fadein;
 }
 
-.supertrunfo {
+#supertrunfo {
   -webkit-animation: 4s ease-in-out 0s normal forwards 1 fadein;
   animation: 4s ease-in-out 0s normal forwards 1 fadein;
 }
 
-.certificard {
+#certificard {
   -webkit-animation: 4.5s ease-in-out 0s normal forwards 1 fadein;
   animation: 4.5s ease-in-out 0s normal forwards 1 fadein;
 }
 
-.tribute-page {
+#tribute-page {
   -webkit-animation: 5s ease-in-out 0s normal forwards 1 fadein;
   animation: 5s ease-in-out 0s normal forwards 1 fadein;
 }
 
-.survey-form {
+#survey-form {
   -webkit-animation: 5.5s ease-in-out 0s normal forwards 1 fadein;
   animation: 5.5s ease-in-out 0s normal forwards 1 fadein;
+}
+
+#landing-page {
+  -webkit-animation: 6s ease-in-out 0s normal forwards 1 fadein;
+  animation: 6s ease-in-out 0s normal forwards 1 fadein;
+}
+
+#technical-page {
+  -webkit-animation: 6.5s ease-in-out 0s normal forwards 1 fadein;
+  animation: 6.5s ease-in-out 0s normal forwards 1 fadein;
 }
 
 @-webkit-keyframes fadein {
@@ -235,17 +245,19 @@ body {
   }
 }
 
-.media:hover,
-.temp:hover,
-.moedas:hover,
-.km:hover,
-.ment:hover,
-.flix:hover,
-.classificacao:hover,
-.supertrunfo:hover,
-.certificard:hover,
-.tribute-page:hover,
-.survey-form:hover {
+#media:hover,
+#temp:hover,
+#moedas:hover,
+#km:hover,
+#ment:hover,
+#flix:hover,
+#classificacao:hover,
+#supertrunfo:hover,
+#certificard:hover,
+#tribute-page:hover,
+#survey-form:hover,
+#landing-page:hover,
+#technical-page:hover {
   transform: scale(1.05);
   transition-duration: 0.5s;
 }
