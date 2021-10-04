@@ -19,7 +19,7 @@ body {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   color: #1c1c1c;
   width: 550px;
-  height: 950px;
+  height: 1000px;
   margin: 70px auto 0 auto;
   padding: 15px 15px 5px;
   background-color: #f7f7f7;
@@ -133,7 +133,7 @@ body {
   margin: 20px auto 15px auto;
   border: 1px solid #000;
   color: #1c1c1c;
-  height: 580px;
+  height: 620px;
   width: 540px;
 }
 
@@ -236,6 +236,11 @@ body {
   animation: 6.5s ease-in-out 0s normal forwards 1 fadein;
 }
 
+#calcule-imc {
+  -webkit-animation: 7s ease-in-out 0s normal forwards 1 fadein;
+  animation: 7s ease-in-out 0s normal forwards 1 fadein;
+}
+
 @-webkit-keyframes fadein {
   from {
     opacity: 0;
@@ -257,7 +262,8 @@ body {
 #tribute-page:hover,
 #survey-form:hover,
 #landing-page:hover,
-#technical-page:hover {
+#technical-page:hover,
+#calcule-imc:hover {
   transform: scale(1.05);
   transition-duration: 0.5s;
 }
